@@ -1,6 +1,11 @@
 public class MediStud extends Stud {
     private int profs;
     
+    
+    public String toString(){
+        return "To-String-Medi-Stud";
+    }
+    
     public void result(int marks){
         if(marks>=50){
             System.out.println("MediStud Passed");

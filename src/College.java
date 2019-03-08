@@ -14,5 +14,9 @@ public static void main(String args[]){
     s2.showPData();
     s2.showMData();
     s2.result(40);
+    
+    String result=s2.toString();
+    System.out.println(result);
+    
 }    
 }
